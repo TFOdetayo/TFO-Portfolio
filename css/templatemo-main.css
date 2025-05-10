@@ -187,6 +187,19 @@ nav ul li a {
   font-size: 18px;
 }
 
+nav .logo h2 {
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  background-color: #333;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0px;
+  border-radius: 20px;
+}
+
 nav .mini-logo {
   display: none;
 }
@@ -767,6 +780,19 @@ nav a:hover::before {
 
   nav .logo {
     display: none;
+  }
+
+  nav .mini-logo h2 {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background-color: #333;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0px;
+    border-radius: 20px;
   }
 
   nav .mini-logo {
