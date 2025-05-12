@@ -616,7 +616,7 @@ nav a:hover::before {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 20px 5px;
+  padding: 20px 3px;
 }
 
 .fourth-content .item .hover-effect h2 {
