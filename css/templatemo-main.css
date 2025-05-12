@@ -624,7 +624,7 @@ nav a:hover::before {
   text-decoration: none;
   text-transform: uppercase;
   padding: 20px 2px;
-  font-size: 10px;
+  font-size: 1px;
 }
 
 .fourth-content .item .hover-effect h2 {
@@ -854,6 +854,26 @@ nav a:hover::before {
   .second-content .left-content {
     padding: 30px;
     text-align: left;
+  }
+
+  .fourth-content .hover-content .githubview {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fourth-content .hover-content .githubview p {
+    border: 1px solid #fff;
+    background: transparent;
+    margin-right: 10px;
+  }
+
+  .fourth-content .hover-content .githubview p a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 2px;
+    font-size: 1px;
   }
 
   .fourth-content .item .hover-effect h2 {
