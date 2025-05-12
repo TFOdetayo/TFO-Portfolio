@@ -549,6 +549,12 @@ nav a:hover::before {
   padding-left: 15px;
 }
 
+.fourth-content .container-fluid .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .fourth-content .container-fluid .col-md-4 {
   padding-right: 0px;
   padding-left: 0px;
